@@ -1,8 +1,6 @@
-module javafx {
-	requires javafx.base;
-	requires javafx.media;
+module javafx11 {
 	requires javafx.controls;
-	requires javafx.graphics;
+	requires javafx.media;
 	
 	exports bigbonapp;
 }
